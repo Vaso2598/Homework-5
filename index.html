@@ -8,11 +8,11 @@
 	</head>
 	<body class="container">
 		<header>
-			<nav class="navbar">
+			<nav class="flex-row flex-wrap justify-between navbar">
 				<a href="#">
 					<img src="/src/Images/UAXE.svg" alt="UAXE" />
 				</a>
-				<ul class="menu neue-regular font-1_5rem">
+				<ul class="flex-row flex-wrap menu neue-regular font-1_5rem">
 					<li class="neue-bold">
 						<a href="#">WOrk</a>
 					</li>
@@ -30,66 +30,162 @@
 			</nav>
 		</header>
 		<main>
-			<div class="banner">
-				<img class="logo" src="/src/Images/Logo.svg" alt="logo" />
+			<div class="flex-column align-center banner">
+				<img class="logo1" src="/src/Images/Logo.svg" alt="logo" />
 				<p class="neue-thin font-1_125rem">CREATIVE AGENCY</p>
-				<h1 class="neue-thin font-6rem">
+				<h1 class="text-center neue-thin font-6rem">
 					<span class="neue-bold">We</span>
 					make Creative
 					<br />
 					Things, Everyday
 				</h1>
-				<div class="circle_cursor">
-					<img class="cursor_tail" src="/src/Images/Cursor_tail.svg" alt="Cursor" />
+				<div class="cursor_circle1">
+					<img src="/src/Images/Cursor_Circle.svg" alt="Cursor" />
 				</div>
 				<img src="/src/Images/Scroll_logo.svg" alt="Scroll to explore" />
 			</div>
-			<div>
-				<h2>WORK</h2>
-				<p>
-					Over the past
-					<span>10 years</span>
-					We had the chance to work with many great teams and global brands across various industries.
-				</p>
-				<div class="circle_cursor">
-					<img class="cursor_tail" src="/src/Images/Cursor_tail.svg" alt="Cursor" />
+			<div class="work flex-column justify-between">
+				<h2 class="neue-regular font-1_125rem weight-400">WORK</h2>
+				<div class="flex-row align-end">
+					<p class="neue-thin font-4rem weight-100">
+						Over the past
+						<span class="color-red neue-regular">10 years</span>
+						We had the chance to work with many great teams and global brands across various industries.
+					</p>
+					<div class="circle_cursor1">
+						<img class="cursor_tail" src="/src/Images/Cursor_Circle.svg" alt="Cursor" />
+					</div>
 				</div>
-				<p>
-					Focused on Strategy, Interactive Design, Creative Coding, Experience Design, Branding, Visual Systems and
-					Product Design.
-				</p>
-				<img src="/src/Images/Scroll_logo.svg" alt="Scroll to explore" />
+				<div class="flex-row justify-between align-end">
+					<p class="neue-thin font-2_25rem description">
+						Focused on Strategy, Interactive Design, Creative Coding, Experience Design, Branding, Visual Systems and
+						Product Design.
+					</p>
+					<div>
+						<img src="/src/Images/Scroll_logo.svg" alt="Scroll to explore" />
+					</div>
+				</div>
 				<div>
-					<div>
-						<h2>1. Nike</h2>
-						<img class="contact" src="/src/Images/Arrow.svg" alt="Arrow" />
-						<p>
-							Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis
-							enim velit mollit. Exercitation veniam consequat sunt nostrud amet exercitation veniam consequat
-						</p>
-						<img src="/src/Images/Nike.png" alt="Nike" />
+					<div class="flex-row space-between align-start">
+						<div class="nike flex-row justify-between align-center">
+							<h2 class="neue-regular font-4rem">1. Nike</h2>
+							<img class="nike_arrow" src="/src/Images/Arrow.svg" alt="Arrow" />
+						</div>
+						<div>
+							<p class="description neue-thin font-1_5rem">
+								Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis
+								enim velit mollit. Exercitation veniam consequat sunt nostrud amet exercitation veniam consequat
+							</p>
+						</div>
 					</div>
-					<div>
-						<img src="/src/Images/Holke.png" alt="Holke" />
-						<h2>2. Holke</h2>
-					</div>
-					<div>
-						<h2>3. Falsa</h2>
-						<img src="/src/Images/Falsa_Simetria.png" alt="Falsa Simetria" />
+					<img class="image" src="/src/Images/Nike.png" alt="Nike" />
+					<div class="holke_falsa flex-row space-between align-end">
+						<div class="flex-column justify-between">
+							<img src="/src/Images/Holke.png" alt="Holke" />
+							<h2 class="holke_falsa neue-regular font-4rem">2. Holke</h2>
+						</div>
+						<div class="flex-column">
+							<h2 class="holke_falsa neue-regular font-4rem">3. Falsa</h2>
+							<img src="/src/Images/Falsa_Simetria.png" alt="Falsa Simetria" />
+						</div>
 					</div>
 				</div>
 			</div>
 			<div>
-				<ul>
+				<ul class="sponsors flex-row flex-wrap justify-between neue-regular font-3rem">
 					<li>CocaCola</li>
-					<li>Apple</li>
-					<li>Alphabate</li>
-					<li>Byjus</li>
-					<li>MasterCard</li>
-					<li>Louis Vuitton</li>
-					<li>L'Oreal</li>
+					<li>
+						<img class="logo2" src="/src/Images/Logo.svg" alt="logo" />
+						Apple
+					</li>
+					<li>
+						<img class="logo2" src="/src/Images/Logo.svg" alt="logo" />
+						Alphabate
+					</li>
+					<li>
+						<img class="logo2" src="/src/Images/Logo.svg" alt="logo" />
+						Byjus
+					</li>
+					<li>
+						<img class="logo2" src="/src/Images/Logo.svg" alt="logo" />
+						MasterCard
+					</li>
+					<li>
+						<img class="logo2" src="/src/Images/Logo.svg" alt="logo" />
+						Louis Vuitton
+					</li>
+					<li>
+						<img class="logo2" src="/src/Images/Logo.svg" alt="logo" />
+						L'Oreal
+					</li>
 				</ul>
 			</div>
+			<div>
+				<div class="services_banner text-center neue-outline weight-700 font-17rem">SERVICES</div>
+				<div class="neue-regular font-1_125rem">SERVICES</div>
+			</div>
+			<div class="flex-row justify-between">
+				<ul class="services flex-column neue-thin font-4rem">
+					<li>UX Consultant</li>
+					<li>Product Interface Design</li>
+					<li class="flex-row align-center">
+						Branding
+						<img src="/src/Images/Cursor_Circle2.svg" alt="cursor" />
+					</li>
+					<li>Marketing Design</li>
+					<li>Mockups Design</li>
+				</ul>
+				<div>
+					<img src="/src/Images/Scedule_call.svg" alt="Scedule Call" />
+				</div>
+			</div>
+			<div>
+				<h2 class="neue-regular font-1_125rem">ABOUT UAXE</h2>
+				<p class="neue-thin font-4rem">
+					We are a
+					<span class="neue-regular">creative studio</span>
+					like no other. Located in the Ahmedabad’s heart - operating without miss any beats
+				</p>
+			</div>
+			<div class="about flex-row justify-between">
+				<img src="/src/Images/unsplash_g1Kr4Ozfoac.png" alt="image" />
+				<div class="flex-column align-between">
+					<div>
+						<p class="neue-regular font-4rem">500+</p>
+						<p class="neue-regular font-1_125rem">HAppy Clients</p>
+					</div>
+					<div>
+						<p class="neue-regular font-4rem">30+</p>
+						<p class="neue-regular font-1_125rem">AWards</p>
+					</div>
+					<div class="neue-thin font-4rem">
+						We're the
+						<span class="neue-regular color-red">design</span>
+						studio you're looking for!
+					</div>
+				</div>
+			</div>
+			<div>
+				<img src="/src/Images/Logo.svg" alt="logo" />
+				CONTACT US
+			</div>
+			<p>Come on baby light my fire!</p>
+			<img src="src/Images/Scedule_call.svg" alt="Scedule Call" />
+			<div>
+				hello@uaxelabs.com
+				<img src="src/Images/Arrow.svg" alt="arrow" />
+			</div>
 		</main>
+		<footer>
+			<nav>
+				<a href="#">Copyright © 2020 Mobio Solutions LLP</a>
+				<p>Made by ❤️</p>
+				<ul>
+					<li>Instagram</li>
+					<li>Twitter</li>
+					<li>LinkedIn</li>
+				</ul>
+			</nav>
+		</footer>
 	</body>
 </html>

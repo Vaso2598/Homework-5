@@ -4,14 +4,82 @@
     margin-top: 3.2rem;
 }
 
+/* reusable styles */
+
+.color-black{
+    color: #000;
+}
+
+.color-red{
+    color: #EF4242;
+}
+
+.flex-row
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-start{
+    justify-content: flex-start;
+}
+
+.justify-end{
+    justify-content: flex-end;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.align-start{
+    align-items: flex-start;
+}
+
+.align-end{
+    align-items: flex-end;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.align-between{
+    align-items: space-between;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.description{
+    width: 40rem;
+    height: 11rem;
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+}
+
 /* Header */
 
 .navbar{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    justify-content: space-between;
+    /* justify-content: center;
+    justify-content: space-between; */
     padding-bottom: 0.25rem;
     border-bottom: 0.03rem solid #000;
 }
@@ -22,9 +90,9 @@
 }
 
 .menu{
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: row; */
     gap:2.5rem;
 }
 
@@ -36,41 +104,76 @@
 /* Banner */
 
 .banner{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.banner h1{
-    text-align: center;
-    line-height: 8.625rem;
-}
-
-.logo{
     margin-top: 3.2rem;
+}
+
+.logo1{
     width: 2.5rem;
     height: 2.5rem;
     margin-bottom: 0.94rem;
 }
 
-.banner h1{
-    margin-top: 3.2rem;
+.logo1 {
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
-.circle_cursor{
-    margin-top: 3.2rem;
+.banner h1{
+    margin: 4.2rem;
+    line-height: 8.625rem;
+}
+
+.cursor_circle1{
     width: 7.5rem;
     height: 7.5rem;
-    border: 1px solid #000;
-    border-radius: 50%;
     position: relative;
-    right: 20rem;
+    right: 16.44rem;
 }
 
-.cursor_tail{
-    width: 2.12125rem;
-    height: 2.12125rem;
-    position: absolute;
-    left: 2.75rem;
-    top: 2.75rem;
+/* Works */
+
+.work{
+    margin-top: 9.88rem;
+    gap: 2rem;
+}
+
+.nike_arrow{
+    width: 2.625rem;
+    height: 2.625rem;
+}
+
+.nike{
+    gap: 1.13rem;
+}
+
+.holke_falsa{
+    margin-top: 3.13rem;
+    margin-bottom: 3.13rem;
+}
+
+.sponsors{
+    gap:1.88rem 5.13rem;
+    margin-bottom: 3.62rem;
+}
+
+.services_banner{
+    margin: 0;
+    width: 80rem;
+    height: 22.0625rem;
+    opacity: 0.1;
+}
+
+.services{
+    gap: 3.15rem;
+}
+
+.cursor_circle2 {
+    width: 7.5rem;
+    height: 7.5rem;
+    position: relative;
+    right: 6rem;
+}
+
+footer{
+    margin-top:6rem;
 }
