@@ -137,6 +137,11 @@ body{
     right: 16.44rem;
 }
 
+.work-logo{
+    position: relative;
+    top:10rem
+}
+
 /* Works */
 
 .work{
@@ -160,14 +165,17 @@ body{
 
 .sponsors{
     gap:1.88rem 5.13rem;
-    margin-bottom: 3.62rem;
+    /* margin-bottom: 3.62rem; */
 }
 
 .services_banner{
-    margin: 0;
+    position: relative;
+    top: 27rem;
     width: 80rem;
     height: 22.0625rem;
     opacity: 0.1;
+    scale: 2.5;
+    z-index: -1;
 }
 
 .services{
@@ -205,7 +213,7 @@ body{
 .background-gradient{
     position: absolute;
     z-index: -1;
-    top: 315rem;
+    top: 310rem;
 }
 
 .mail_logo{
