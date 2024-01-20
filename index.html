@@ -13,18 +13,20 @@
 					<img src="/src/Images/UAXE.svg" alt="UAXE" />
 				</a>
 				<ul class="flex-row flex-wrap menu neue-regular font-1_5rem">
-					<li class="neue-bold">
-						<a href="#">WOrk</a>
+					<li>
+						<a class="neue-bold hover-color" href="#">WOrk</a>
 					</li>
 					<li>
-						<a href="#">SErvice</a>
+						<a class="hover-color" href="#">SErvice</a>
 					</li>
 					<li>
-						<a href="#">ABout</a>
+						<a class="hover-color" href="#">ABout</a>
 					</li>
 					<li>
-						<a href="#">COntact</a>
-						<img class="contact" src="/src/Images/Arrow.svg" alt="Arrow" />
+						<a class="hover-color" href="#">
+							COntact
+							<img class="contact" src="/src/Images/Arrow.svg" alt="Arrow" />
+						</a>
 					</li>
 				</ul>
 			</nav>
@@ -66,7 +68,7 @@
 					</div>
 				</div>
 				<div>
-					<div class="flex-row space-between align-start">
+					<div class="flex-row justify-between align-start">
 						<div class="nike flex-row justify-between align-center">
 							<h2 class="neue-regular font-4rem">1. Nike</h2>
 							<img class="nike_arrow" src="/src/Images/Arrow.svg" alt="Arrow" />
@@ -79,7 +81,7 @@
 						</div>
 					</div>
 					<img class="image" src="/src/Images/Nike.png" alt="Nike" />
-					<div class="holke_falsa flex-row space-between align-end">
+					<div class="holke_falsa flex-row justify-between align-end">
 						<div class="flex-column justify-between">
 							<img src="/src/Images/Holke.png" alt="Holke" />
 							<h2 class="holke_falsa neue-regular font-4rem">2. Holke</h2>
@@ -92,29 +94,29 @@
 				</div>
 			</div>
 			<div>
-				<ul class="sponsors flex-row flex-wrap justify-between neue-regular font-3rem">
-					<li>CocaCola</li>
-					<li>
+				<ul class="sponsors flex-row flex-wrap justify-between neue-thin font-3rem">
+					<li class="hover-bold">CocaCola</li>
+					<li class="hover-bold">
 						<img class="logo2" src="/src/Images/Logo.svg" alt="logo" />
 						Apple
 					</li>
-					<li>
+					<li class="hover-bold">
 						<img class="logo2" src="/src/Images/Logo.svg" alt="logo" />
 						Alphabate
 					</li>
-					<li>
+					<li class="hover-bold">
 						<img class="logo2" src="/src/Images/Logo.svg" alt="logo" />
 						Byjus
 					</li>
-					<li>
+					<li class="hover-bold">
 						<img class="logo2" src="/src/Images/Logo.svg" alt="logo" />
 						MasterCard
 					</li>
-					<li>
+					<li class="hover-bold">
 						<img class="logo2" src="/src/Images/Logo.svg" alt="logo" />
 						Louis Vuitton
 					</li>
-					<li>
+					<li class="hover-bold">
 						<img class="logo2" src="/src/Images/Logo.svg" alt="logo" />
 						L'Oreal
 					</li>
@@ -126,64 +128,77 @@
 			</div>
 			<div class="flex-row justify-between">
 				<ul class="services flex-column neue-thin font-4rem">
-					<li>UX Consultant</li>
-					<li>Product Interface Design</li>
-					<li class="flex-row align-center">
-						Branding
+					<li>
+						<a class="hover-bold hover-arrow decoration-none color-black" href="#">UX Consultant</a>
+					</li>
+					<li>
+						<a class="hover-bold hover-arrow decoration-none color-black" href="#">Product Interface Design</a>
+					</li>
+					<li class="flex-row align-center justify-between">
+						<a class="hover-bold hover-arrow decoration-none color-black" href="#">Branding</a>
 						<img src="/src/Images/Cursor_Circle2.svg" alt="cursor" />
 					</li>
-					<li>Marketing Design</li>
-					<li>Mockups Design</li>
+					<li>
+						<a class="hover-bold hover-arrow decoration-none color-black" href="#">Marketing Design</a>
+					</li>
+					<li>
+						<a class="hover-bold hover-arrow decoration-none color-black" href="#">Mockups Design</a>
+					</li>
 				</ul>
 				<div>
 					<img src="/src/Images/Scedule_call.svg" alt="Scedule Call" />
 				</div>
 			</div>
 			<div>
-				<h2 class="neue-regular font-1_125rem">ABOUT UAXE</h2>
-				<p class="neue-thin font-4rem">
-					We are a
-					<span class="neue-regular">creative studio</span>
-					like no other. Located in the Ahmedabad’s heart - operating without miss any beats
-				</p>
-			</div>
-			<div class="about flex-row justify-between">
-				<img src="/src/Images/unsplash_g1Kr4Ozfoac.png" alt="image" />
-				<div class="flex-column align-between">
-					<div>
-						<p class="neue-regular font-4rem">500+</p>
-						<p class="neue-regular font-1_125rem">HAppy Clients</p>
+				<div class="flex-column">
+					<h2 class="about neue-regular font-1_125rem">ABOUT UAXE</h2>
+					<p class="about-description neue-thin font-4rem">
+						We are a
+						<span class="neue-regular">creative studio</span>
+						like no other. Located in the Ahmedabad’s heart - operating without miss any beats
+					</p>
+				</div>
+				<div class="about-background flex-row justify-between">
+					<img class="background-gradient" src="/src/Images/Background.png" alt="background" />
+					<div class="team-img">
+						<img src="/src/Images/unsplash_g1Kr4Ozfoac.png" alt="image" />
 					</div>
-					<div>
-						<p class="neue-regular font-4rem">30+</p>
-						<p class="neue-regular font-1_125rem">AWards</p>
-					</div>
-					<div class="neue-thin font-4rem">
-						We're the
-						<span class="neue-regular color-red">design</span>
-						studio you're looking for!
+					<div class="flex-column justify-between">
+						<div>
+							<p class="neue-regular font-4rem">500+</p>
+							<p class="neue-regular font-1_125rem">HAppy Clients</p>
+						</div>
+						<div>
+							<p class="neue-regular font-4rem">30+</p>
+							<p class="neue-regular font-1_125rem">AWards</p>
+						</div>
+						<div class="neue-thin font-4rem">
+							We're the
+							<span class="neue-regular color-red">design</span>
+							studio you're looking for!
+						</div>
 					</div>
 				</div>
 			</div>
-			<div>
-				<img src="/src/Images/Logo.svg" alt="logo" />
-				CONTACT US
-			</div>
-			<p>Come on baby light my fire!</p>
-			<img src="src/Images/Scedule_call.svg" alt="Scedule Call" />
-			<div>
-				hello@uaxelabs.com
-				<img src="src/Images/Arrow.svg" alt="arrow" />
+			<div class="flex-column align-center">
+				<img class="mail_logo" src="/src/Images/Logo.svg" alt="logo" />
+				<p class="neue-thin font-1_125rem">CONTACT US</p>
+				<img class="text_svg" src="/src/Images/Text.svg" alt="" />
+				<img src="src/Images/Scedule_call.svg" alt="Scedule Call" />
+				<div class="neue-regular font-2_25rem mail">
+					hello@uaxelabs.com
+					<img class="mail_arrow" src="src/Images/Arrow.svg" alt="arrow" />
+				</div>
 			</div>
 		</main>
-		<footer>
-			<nav>
-				<a href="#">Copyright © 2020 Mobio Solutions LLP</a>
+		<footer class="neue-regular font-1_125rem">
+			<nav class="flex-row justify-between">
+				<a class="hover-color" href="#">Copyright © 2020 Mobio Solutions LLP</a>
 				<p>Made by ❤️</p>
-				<ul>
-					<li>Instagram</li>
-					<li>Twitter</li>
-					<li>LinkedIn</li>
+				<ul class="flex-row flex-wrap menu">
+					<li><a class="hover-color" href="#">Instagram</a></li>
+					<li><a class="hover-color" href="#">Twitter</a></li>
+					<li><a class="hover-color" href="#">LinkedIn</a></li>
 				</ul>
 			</nav>
 		</footer>
